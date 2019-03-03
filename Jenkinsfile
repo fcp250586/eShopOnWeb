@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent { node 'eshop' }
   stages {
     stage('Checkout') {
       steps {
